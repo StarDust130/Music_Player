@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" href="https://img.icons8.com/officel/16/musical-notes.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="😁">
+                    <img src="https://img.icons8.com/metro/35/cancel.png" alt="left" />
+                </div>
+                <div class="🫠">
+                    <img src="https://img.icons8.com/ios-filled/35/menu--v1.png" alt="menu" />
+                </div>
+            </nav>
+            <img src="wallpaperflare.com_wallpaper.jpg" class="song-img">
+            <h1>Shinzo wo Sasageyo!</h1>
+            <p>Song: Linked Horizon</p>
+
+            <audio id="song">
+                <source src="Shinzou wo Sasageyo!.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><img src="https://img.icons8.com/ios-filled/20/rewind.png" id="left"></div>
+                <div onclick="playPause()"><img src="https://img.icons8.com/ios-filled/20/play--v1.png" id="ctrlIcon">
+                </div>
+                <div><img src="https://img.icons8.com/ios-filled/20/fast-forward.png" id="right"></div>
+            </div>
+
+
+
+
+        </div>
+
+        <footer>Created by &copy; 2023 <a href="https://github.com/StarDust130">ChandraShekhar</a></footer>
+
+    </div>
+
+
+</body>
+
+</html>
