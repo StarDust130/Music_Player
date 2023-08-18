@@ -12,5 +12,7 @@ To use the music player, simply open the index.html file in your web browser. Th
 The music player is easy to use and has a sleek interface. Here are the controls:
 
 #### Play/Pause button: Click this button to start or pause the song. Feel free to groove along with the beat!⛩
+
 #### Progress bar: Click and drag the progress bar to seek to a specific point in the song. Skip ahead to your favorite part of the song or replay your favorite chorus.🔰
+
 ####  Volume slider: Drag the volume slider to adjust the volume of the song. Crank up the volume and let the music fill the room!🤌
