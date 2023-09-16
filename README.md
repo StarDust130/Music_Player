@@ -5,6 +5,7 @@
 
 ## Getting Started⚔️
 
+
 To use the music player, simply open the index.html file in your web browser. The music player should load and you should be able to play and pause the song, seek to a specific point in the song, and control the volume.
 
 
